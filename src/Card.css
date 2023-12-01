@@ -1,0 +1,47 @@
+.card-list {
+  display:  flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-list-template {
+  min-width: 19rem;
+}
+
+.card-list-template-image {
+  width: 100%;
+}
+
+.card-list-template-image img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 1rem;
+  flex-direction: column;
+  padding: 0.5rem 1.rem;
+}
+
+.card-title h3{
+  color: black;
+  font-size: 1.2rem;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.card-btn {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  color: black;
+  text-decoration: none !important;
+  border-radius: 0.2rem;
+  border: #000 solid 1px;
+  transition: ease-in-out;
+}
+
+.card-btn:hover {
+  outline: #000 solid 1.8px;
+}
