@@ -1,0 +1,19 @@
+.popup-container {
+  padding: 1.5rem 2rem;
+  background-color: white;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  position : fixed;           
+  left: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 500;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+span {
+  color: black;
+  font-weight: 900;
+  font-size: 1.2rem;
+}

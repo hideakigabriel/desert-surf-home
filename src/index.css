@@ -49,6 +49,15 @@ header {
   font-size: 0.9rem;
 }
 
+.header-navigation > li > span {
+  color: red;
+  font-weight: 800;
+}
+
+.header-navigation > li > span:hover {
+  color: #000;
+}
+
 .header-navigation li:hover {
   cursor: pointer;
   border-bottom: #000 solid 0.12rem;
@@ -85,8 +94,21 @@ header {
 
 .collection-wrap {
   padding: 0.5rem 1rem 1rem 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .collection-wrap {
  margin-top: 2rem;
+}
+
+.container-wrap {
+  padding: 1rem 0;
+}
+
+.title-wrap {
+  margin-left: 1rem;
+}
+
+.title {
+  text-align: left;
 }

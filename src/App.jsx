@@ -1,13 +1,17 @@
 import "./App.css";
 import "./Card.css";
+import "./DiscountPopUp.css";
 import Card from "./components/Card";
+import ProductItem from "./components/ProductItem";
+import DiscountPopUp from "./components/DiscountPopUp";
+import CardCategories from "./components/CardCategories";
 
 function App() {
   return (
     <>
       <div className="top-header">
         <div></div>
-        <span>BLACK NOVEMBER COM ATÉ 70% OFF</span>
+        <span>GANHE CHINELO NAS COMPRAS ACIMA DE R$699</span>
         <div></div>
       </div>
       <header>
@@ -33,7 +37,7 @@ function App() {
               <a href="http://"></a>MUNDO DESERT SURF
             </li>
             <li>
-              <a href="http://"></a>OFERTAS
+              <span id="#link-sale">SALE</span>
             </li>
           </ul>
         </nav>
@@ -52,7 +56,10 @@ function App() {
       </header>
 
       <div className="hero-banner">
-        <img src="./public/hero-banner.jpg" alt="Hero Slide Banner" />
+        <img
+          src="https://hurley.com.br/cdn/shop/files/Banner_Phantom_Eco_Site_1500x.jpg?v=1698169717"
+          alt="Hero Slide Banner"
+        />
       </div>
 
       <section>
@@ -62,6 +69,35 @@ function App() {
           </ul>
         </div>
       </section>
+
+      <section className="container-wrap">
+        <div className="hero-banner">
+          <img src="https://pbs.twimg.com/media/EVmkGJkUUAAcpdx.jpg" alt="" />
+        </div>
+      </section>
+
+      <section className="container-wrap">
+        <div className="title-wrap">
+          <h1 className="title">BERMUDAS</h1>
+        </div>
+        <div className="collection-wrap">
+          <ul className="card-list">
+            <ProductItem />
+            <ProductItem />
+            <ProductItem />
+            <ProductItem />
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div className="collection-wrap">
+          <ul className="card-list">
+            <CardCategories />
+          </ul>
+        </div>
+      </section>
+      <DiscountPopUp/>
     </>
   );
 }
