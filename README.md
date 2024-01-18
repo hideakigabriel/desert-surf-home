@@ -1,5 +1,6 @@
-
 # Shop Landing Page
+
+![Hideaki Design Software Surfwear Web UI Design](https://mir-s3-cdn-cf.behance.net/projects/808/03584a185633295.Y3JvcCw4MDgsNjMyLDAsMA.jpg)
 
 Projeto de estudo Front-end para praticar conceitos de components, APIs e botar a mão na massa num projeto simples de vendas de produtos.
 
